@@ -1,0 +1,4 @@
+streamlit==1.30.0
+pandas==2.2.1
+openpyxl==3.1.2
+unicodedata2==15.1.0
