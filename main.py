@@ -47,7 +47,8 @@ def secure_file_processing(uploaded_file):
             f.write(uploaded_file.getvalue())
         
         # Read and process file
-        df = pd.read_excel(file_path, sheet_name='Feuil1')
+        df = pd.read_excel(file_path, engine="openpyxl")
+
     
     return df
 
