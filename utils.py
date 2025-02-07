@@ -34,7 +34,7 @@ def process_dataframe(df):
 
     # Define categorical sorting
     nature_order = ['Baseline', 'Mid-treatment', 'Post-treatment']
-    object_order = ['Tumoral', 'Peritumoral']
+    object_order = ['Tumor', 'Peritumoral']
     series_order = ['T2', 'SUB', 'T1']
 
     # Convert to categorical types for proper sorting
